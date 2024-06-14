@@ -1,0 +1,49 @@
+.artCard {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 44px;
+    border: 2px solid #f5f5f5;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.artCard__image {
+    margin: 0;
+    padding: 0;
+    width: 354px;
+    height: 249px;
+}
+
+.artCard__container {
+    margin: 0;
+    padding: 0;
+    margin-left: 21px;
+    max-width: 287px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.artCard__container:hover {
+    text-decoration: 2px #f5f5f5 underline;
+}
+
+.artCard__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 32px;
+    color: #f5f5f5;
+}
+
+.artCard__article {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f5f5f5;
+}

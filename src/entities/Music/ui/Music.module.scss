@@ -1,0 +1,44 @@
+.music {
+    margin: 0;
+    padding: 55px 66px 43px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.music__title {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    color: #f5f5f5;
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 126px;
+}
+
+.music__container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 43px;
+}
+
+.music__arrow {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    border-top: 5px solid #f5f5f5;
+    border-right: 5px solid #f5f5f5;
+    transform: rotate(45deg);
+    margin-top: 42px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.music__arrow:hover {
+    box-shadow: 2px 2px 5px 2px #f5f5f5;;
+    
+}

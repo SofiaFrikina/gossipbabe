@@ -1,0 +1,31 @@
+.general {
+    margin: 0;
+    padding: 18px 72px 102px 72px;
+    background-color: #181c3f;
+    display: flex;
+    gap: 50px;
+}
+
+.general__title {
+    margin: 0;
+    padding: 0;
+    max-width: 459px;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    align-self: center;
+}
+
+
+.general__group {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 196px 347px;
+    grid-template-columns: 376px 234px;
+    grid-template-areas:
+    ".general__img1 .general__img1 .general__img2"
+    ".general__img3 .general__img3 .general__img2";
+    column-gap: 18px;
+    row-gap: 22px;
+}

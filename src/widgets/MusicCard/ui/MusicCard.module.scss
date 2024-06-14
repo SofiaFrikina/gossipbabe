@@ -1,0 +1,106 @@
+.musicCard {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 44px;
+    border: 2px solid #f5f5f5;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.musicCard__image {
+    margin: 0;
+    padding: 0;
+    width: 354px;
+    height: 249px;
+}
+
+.musicCard__container {
+    margin: 0;
+    padding: 0;
+    margin-left: 21px;
+    max-width: 287px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.musicCard__container:hover {
+    text-decoration: 2px #f5f5f5 underline;
+}
+
+.musicCard__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 32px;
+    color: #f5f5f5;
+}
+
+.musicCard__article {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f5f5f5;
+}
+
+.musicCard__group {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.musicCard__leftSight {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.musicCard__line {
+    margin: 0;
+    padding: 0;
+    border: 3px solid #f5f5f5;
+}
+
+.musicCard__leftArrow {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 40px solid #f5f5f5;
+}
+
+.musicCard__centerArrow {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-left: 47px solid #f5f5f5;
+}
+
+.musicCard__rightSight {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.musicCard__rightArrow {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 40px solid #f5f5f5;
+}

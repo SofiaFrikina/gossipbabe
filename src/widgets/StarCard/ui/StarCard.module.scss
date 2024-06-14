@@ -1,0 +1,49 @@
+.starCard {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 44px;
+    border: 2px solid #181c3f;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.starCard__image {
+    margin: 0;
+    padding: 0;
+    width: 354px;
+    height: 249px;
+}
+
+.starCard__container {
+    margin: 0;
+    padding: 0;
+    margin-left: 21px;
+    max-width: 287px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.starCard__container:hover {
+    text-decoration: 2px #181c3f underline;
+}
+
+.starCard__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 32px;
+    color: #181c3f;
+}
+
+.starCard__article {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #181c3f;
+}
